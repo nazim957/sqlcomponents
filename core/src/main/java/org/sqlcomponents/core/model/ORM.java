@@ -227,9 +227,13 @@ public class ORM {
         return encryption;
     }
 
+    //    Changes by Mohd Nazim
+
     public void setEncryption(final List<String> theEncryption) {
         this.encryption = theEncryption;
     }
+
+    //    Changes by Mohd Nazim
 
     public List<Entity> getEntities() {
         return entities;
