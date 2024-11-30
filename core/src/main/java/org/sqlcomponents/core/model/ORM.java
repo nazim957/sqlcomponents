@@ -217,6 +217,8 @@ public class ORM {
         return validationMap;
     }
 
+//    Changes by Mohd Nazim
+
     public void setValidationMap(final Map<String, String> theValidationMap) {
         this.validationMap = theValidationMap;
     }
